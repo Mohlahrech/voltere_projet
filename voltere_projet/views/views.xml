@@ -29,7 +29,7 @@
                             </group>
                         </group>
                     </page>
-                    <page string="Cases à cocher par le vendeur" attrs="{'invisible': [('name', '!=', 'Demande Consuel')]}">
+                    <page string="Informations à fournir" attrs="{'invisible': [('name', '!=', 'Demande Consuel')]}">
                         <group>
                             <group>
                                 <field name="nombre_modules" col="4"/>
@@ -44,7 +44,7 @@
                         </group>
                     </page>
                     <!-- Nouvelle page pour les champs supplémentaires -->
-                    <page string="Cases à cocher par le vendeur" attrs="{'invisible': [('name', '!=', 'Demande de raccordement (ENEDIS ou autre distributeurs)')]}">
+                    <page string="Informations à fournir" attrs="{'invisible': [('name', '!=', 'Demande de raccordement (ENEDIS ou autre distributeurs)')]}">
                         <group>
                             <field name="facture_electricite" col="4"/>
                             <field name="mandat_raccordement" col="4"/>

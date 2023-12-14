@@ -74,7 +74,7 @@ class VoltereProjet(models.Model):
 
     def write(self, vals):
         if 'stage_id' in vals and not self.stage_ok:
-            raise exceptions.UserError("Please check 'dln' before changing the 'stage_id'.")
+            raise exceptions.UserError("Veuillez fournir toutes les informations avant de changer d'étape.")
 
         # Your write method logic here
         return super(VoltereProjet, self).write(vals)
